@@ -59,3 +59,4 @@ While I have included the import statements for all and intall statements for so
 
 **Step 3)** This is the gradient Boosting step, here we are feeding the preprocessed model that has been sent through three different kinds of CNN's to be boosted. We are Using the CatBoost Algorithm in this particular Scenario. After running the code Cell by cell we will end up with a ".csv" containing the guid and the label of the image in the requested format.
 
+**NOTE**: All of our Code was run on collab through a mounted google drive containing the data, so paths and folders may need to be changed accordingly. Also, for task 2 the output comes directly in Step 1.
