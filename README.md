@@ -16,10 +16,37 @@
 Each *bbox.bin file contains an array with 11 columns. Each row contains information of a bounding box: rotation vector, position (centroid x, y, z), size of the bounding box (length, width, height), class id, and a flag. The mapping from class id to the type of vehicle is provided in classes.csv
 
 # How To Run Our Code
-The code is distributed among three primary .ipynb files namely:
+The code is distributed among four primary .ipynb files namely:
 
 1)preprocesstrain.ipynb
 
 2)preprocesstest.ipynb
 
 3)catboostmodel.ipynb
+
+4)graphinference.ipynb
+
+##Dependencies
+
+While I have included the import statements for all and intall statements for some particular dependencies. At the end of the day thee following are what you will need:
+
+1)TensorFlow
+
+2)Numpy
+
+3)Keras
+
+4)Matplotlib
+
+5)CatBoost
+
+6)PIL
+
+7)Glob
+
+8)csv
+
+9)Pandas
+
+
+##Step-By-Step
