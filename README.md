@@ -51,6 +51,11 @@ While I have included the import statements for all and intall statements for so
 
 ## Step-By-Step
 
-**NOTE**: I have already ran most of these steps and put the resulting files on the GitHub, However Just in case you want to know how these files were produced, I am including those steps as well.
+**NOTE**: I have already ran most of these steps and put the resulting files on the GitHub, However Just in case you want to know how these files were produced, I am including those steps as well. Alternatively, To see our Output **Skip to Step 3**.
 
-**Step 1)**
+**Step 1)** Using the the graphinference.ipynb file running the code cell by cell you should be able to obtain all the ".tsv" files required for preprocessing the training and the testing sets. One of the file dependencies this program has is the frozen model, this can be easily downloaded online, additionally I have put it in this GitHub Repo. One thing that might be a cause of irritation is the Tf version compatibility, but I have added code to fix these errors.
+
+**Step 2)** Once we have all the files required to preprocees our models, we excute the preprocesstrain.ipynb and preprocesstest.ipynb files cell-by-cell. As long as all the file dependencies obtained from the previous step are present, this should not be a problem. At the end of this step, we should obtain a train and test ".tsv" file.
+
+**Step 3)** This is the gradient Boosting step, here we are feeding the preprocessed model that has been sent through three different kinds of CNN's to be boosted. We are Using the CatBoost Algorithm in this particular Scenario. After running the code Cell by cell we will end up with a ".csv" containing the guid and the label of the image in the requested format.
+
