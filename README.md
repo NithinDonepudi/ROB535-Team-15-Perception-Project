@@ -50,3 +50,7 @@ While I have included the import statements for all and intall statements for so
 
 
 ## Step-By-Step
+
+**NOTE**: I have already ran most of these steps and put the resulting files on the GitHub, However Just in case you want to know how these files were produced, I am including those steps as well.
+
+**Step 1)**
