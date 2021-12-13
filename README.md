@@ -26,7 +26,7 @@ The code is distributed among four primary .ipynb files namely:
 
 4)graphinference.ipynb
 
-##Dependencies
+## Dependencies
 
 While I have included the import statements for all and intall statements for some particular dependencies. At the end of the day thee following are what you will need:
 
@@ -49,4 +49,4 @@ While I have included the import statements for all and intall statements for so
 9)Pandas
 
 
-##Step-By-Step
+## Step-By-Step
